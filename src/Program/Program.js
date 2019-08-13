@@ -30,6 +30,7 @@ const Program = (props) => {
     <div id="program" className="program">
         <h2>Create New Workout:</h2>
         <form className="main-form" autoComplete="off">
+            //TODO: Separate the containers below into their own Components.
             <Typography variant="h6" gutterBottom className={classes.typography}>
                 Format:
             </Typography>
@@ -85,7 +86,7 @@ const Program = (props) => {
             <Typography variant="h6" gutterBottom className={classes.typography}>
                 RX Weight:
             </Typography>
-            <Grid container className={classes.root} spacing={4}>
+            <Grid container className={classes.root} spacing={2}>
                 <Grid item xs={12} sm={4}>
                     <TextField
                         id="weight"
